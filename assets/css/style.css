@@ -1,0 +1,100 @@
+/*
+  Theme Name: Boghri News Website
+  Description: Boghri.net Theme
+  Version: 0.1
+  Author: Lynatech
+  Author URI: http://lynatech.com
+  Tags: HTML5, CSS3
+*/
+
+
+/* Font
+================================================== */
+@font-face {font-family: "DINNextLTW23-Heavy";
+    src: url("//db.onlinewebfonts.com/t/7cbf568c358c8f88cd2ef87c666df916.eot");
+    src: url("//db.onlinewebfonts.com/t/7cbf568c358c8f88cd2ef87c666df916.eot?#iefix") format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/7cbf568c358c8f88cd2ef87c666df916.woff2") format("woff2"),
+    url("//db.onlinewebfonts.com/t/7cbf568c358c8f88cd2ef87c666df916.woff") format("woff"),
+    url("//db.onlinewebfonts.com/t/7cbf568c358c8f88cd2ef87c666df916.ttf") format("truetype"),
+    url("//db.onlinewebfonts.com/t/7cbf568c358c8f88cd2ef87c666df916.svg#DINNextLTW23-Heavy") format("svg");
+}
+@font-face {font-family: "DINNextLTW23-Medium";
+    src: url("//db.onlinewebfonts.com/t/6c3031b059f4bce0e5b2c6f19458819f.eot");
+    src: url("//db.onlinewebfonts.com/t/6c3031b059f4bce0e5b2c6f19458819f.eot?#iefix") format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/6c3031b059f4bce0e5b2c6f19458819f.woff2") format("woff2"),
+    url("//db.onlinewebfonts.com/t/6c3031b059f4bce0e5b2c6f19458819f.woff") format("woff"),
+    url("//db.onlinewebfonts.com/t/6c3031b059f4bce0e5b2c6f19458819f.ttf") format("truetype"),
+    url("//db.onlinewebfonts.com/t/6c3031b059f4bce0e5b2c6f19458819f.svg#DINNextLTW23-Medium") format("svg");
+}
+@font-face {font-family: "DINNextLTW23-Regular";
+    src: url("//db.onlinewebfonts.com/t/700c7fdfa933f54f6cbdf1db536402bd.eot");
+    src: url("//db.onlinewebfonts.com/t/700c7fdfa933f54f6cbdf1db536402bd.eot?#iefix") format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/700c7fdfa933f54f6cbdf1db536402bd.woff2") format("woff2"),
+    url("//db.onlinewebfonts.com/t/700c7fdfa933f54f6cbdf1db536402bd.woff") format("woff"),
+    url("//db.onlinewebfonts.com/t/700c7fdfa933f54f6cbdf1db536402bd.ttf") format("truetype"),
+    url("//db.onlinewebfonts.com/t/700c7fdfa933f54f6cbdf1db536402bd.svg#DINNextLTW23-Regular") format("svg");
+}
+@font-face {font-family: "DINNextLTW23-Light";
+    src: url("//db.onlinewebfonts.com/t/8795e154eac587f055ba93436d06f1bb.eot");
+    src: url("//db.onlinewebfonts.com/t/8795e154eac587f055ba93436d06f1bb.eot?#iefix") format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/8795e154eac587f055ba93436d06f1bb.woff2") format("woff2"),
+    url("//db.onlinewebfonts.com/t/8795e154eac587f055ba93436d06f1bb.woff") format("woff"),
+    url("//db.onlinewebfonts.com/t/8795e154eac587f055ba93436d06f1bb.ttf") format("truetype"),
+    url("//db.onlinewebfonts.com/t/8795e154eac587f055ba93436d06f1bb.svg#DINNextLTW23-Light") format("svg");
+}
+@font-face {font-family: "BrandonGrotW01-Medium";
+    src: url("//db.onlinewebfonts.com/t/83f7e4f1c03e9c9a251b689bb77d2e6b.eot");
+    src: url("//db.onlinewebfonts.com/t/83f7e4f1c03e9c9a251b689bb77d2e6b.eot?#iefix") format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/83f7e4f1c03e9c9a251b689bb77d2e6b.woff2") format("woff2"),
+    url("//db.onlinewebfonts.com/t/83f7e4f1c03e9c9a251b689bb77d2e6b.woff") format("woff"),
+    url("//db.onlinewebfonts.com/t/83f7e4f1c03e9c9a251b689bb77d2e6b.ttf") format("truetype"),
+    url("//db.onlinewebfonts.com/t/83f7e4f1c03e9c9a251b689bb77d2e6b.svg#BrandonGrotW01-Medium") format("svg");
+}
+
+
+/* Typography
+================================================== */
+html,body { 
+	font-family: 'DINNextLTW23-Light', sans-serif; 
+	font-size: 18px; 
+	color: #333; 
+}
+a { 
+	color: #43D7E2; 
+	text-decoration: none; 
+	outline: 0; 
+}
+a:hover, a:focus { 
+	color: #43D7E2; 
+}
+p {
+	margin-bottom: 1.5em;
+	line-height: 1.5em;
+}
+p.lead {
+	font-size: 20px;
+}
+h1, .h1 { font-size: 56px; }
+h2, .h2 { font-size: 42px; }
+h3, .h3 { font-size: 36px; }
+h4, .h4 { font-size: 28px; }
+h5, .h5 { font-size: 22px; }
+h6, .h6 { font-size: 20px; }
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+ 	font-family: 'DINNextLTW23-Regular', sans-serif;
+ 	font-weight: 400;
+ 	line-height: 1.1;
+	color: inherit;
+}
+h1, .h1, 
+h2, .h2 {
+	font-family: 'BrandonGrotW01-Medium', sans-serif;
+	line-height: 1.1;
+}
+h2, .h2 {
+	margin-bottom: 1.2rem;
+}
+h4, .h4 {
+	font-family: 'DINNextLTW23-Light', sans-serif;
+ 	line-height: 1.6;
+}
